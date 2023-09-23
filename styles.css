@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    height: 97vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.leftnav {
+    display: flex;
+    gap: 2rem;
+}
+
+.rowview {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+i {
+    color: #FF6601;
+}
+
+.logo {
+    height: 50px;
+    width: 160px;
+}
+
+.navbar .rowview div select, .navbar .rowview input {
+    height: 40px;
+}
+
+.navbar .rowview div select {
+    margin-top: -4px;
+}
